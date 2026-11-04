@@ -10,7 +10,7 @@
   background: #ffffff;
 }
 
-/* NAVBAR */
+
 .cc-navbar {
   height: 75px;
   padding: 0 8%;
@@ -77,8 +77,6 @@
   background: #6745cb;
   color: white;
 }
-
-/* HERO SECTION */
 
 .hero-section {
   min-height: 570px;
@@ -173,8 +171,6 @@
   margin-top: 5px;
 }
 
-/* HERO VISUAL */
-
 .hero-visual {
   width: 440px;
   height: 400px;
@@ -246,7 +242,6 @@
   font-weight: 700;
 }
 
-/* ABOUT SECTION */
 
 .about-section {
   padding: 75px 8%;
@@ -306,7 +301,6 @@
   font-size: 14px;
 }
 
-/* FOOTER */
 
 .cc-footer {
   text-align: center;
@@ -324,8 +318,6 @@
   font-size: 13px;
   margin-top: 8px;
 }
-
-/* RESPONSIVE */
 
 @media (max-width: 900px) {
   .hero-section {

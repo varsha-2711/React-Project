@@ -1,9 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 
-import {
-    deleteProduct,
-    updateProductStatus
-} from '../redux/ProductSlice';
+import { deleteProduct,  updateProductStatus} from '../redux/ProductSlice';
 
 function ManageProducts() {
 
@@ -15,9 +12,7 @@ function ManageProducts() {
 
         <div>
 
-            <p className="eyebrow">
-                LISTING MODERATION
-            </p>
+            <p className="eyebrow">LISTING MODERATION </p>
 
             <h2>Manage products</h2>
 

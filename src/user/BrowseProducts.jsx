@@ -36,7 +36,7 @@ function BrowseProducts() {
                 </p>
             </div>
 
-            {/* CATEGORY FILTER */}
+         
 
             <div className="browse-category-filter">
                 {categories.map(category => (

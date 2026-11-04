@@ -27,33 +27,19 @@ function AdminDashboard() {
 
                     <h3>Admin workspace</h3>
 
-                    <p className="side-user">
-                        CampusCart control centre
-                    </p>
+                    <p className="side-user"> CampusCart control centre </p>
 
-                    <Link to="/admin">
-                        Overview
-                    </Link>
+                    <Link to="/admin">Overview</Link>
 
-                    <Link to="/admin/products">
-                        Manage products
-                    </Link>
+                    <Link to="/admin/products">Manage products</Link>
 
-                    <Link to="/admin/categories">
-                        Categories
-                    </Link>
+                    <Link to="/admin/categories">Categories</Link>
 
-                    <Link to="/admin/users">
-                        Manage users
-                    </Link>
+                    <Link to="/admin/users">Manage users</Link>
 
-                    <Link to="/admin/reports">
-                        Reports
-                    </Link>
+                    <Link to="/admin/reports"> Reports </Link>
 
-                    <button onClick={logout}>
-                        Logout
-                    </button>
+                    <button onClick={logout}>Logout</button>
 
                 </aside>
 

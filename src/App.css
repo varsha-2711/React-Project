@@ -547,8 +547,6 @@ button, input, select, textarea {
     height: 100%;
 }
 
-/* PRODUCT IMAGES */
-
 .product-image-box {
     position: relative;
     width: 100%;
@@ -739,8 +737,6 @@ button, input, select, textarea {
     background: white;
     border-radius: 12px;
 }
-
-/* ADMIN TABLES */
 
 .table-wrap {
     margin-top: 20px;
@@ -1023,4 +1019,41 @@ td small {
     border-radius: 20px;
     line-height: 1.4;
     white-space: nowrap;
+}
+@media (max-width: 650px) {
+
+    .dashboard-shell {
+        height: auto;
+        overflow: visible;
+    }
+
+    .dashboard-layout {
+        flex-direction: column;
+        height: auto;
+        overflow: visible;
+    }
+
+    .side-menu {
+        position: static;
+        width: 100%;
+        height: auto;
+        min-height: auto;
+    }
+
+    .dashboard-content {
+        width: 100%;
+        height: auto;
+        overflow: visible;
+        padding: 18px 14px;
+    }
+
+    .browse-page {
+        min-height: auto;
+        padding: 18px 0;
+    }
+
+    .products-container {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
 }

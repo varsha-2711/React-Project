@@ -9,7 +9,6 @@ function ProductDetails() {
     const navigate = useNavigate();
     const dispatch = useDispatch();
 
-    // Get only the selected product
     const product = useSelector(state =>
         state.products.find(
             p => p.id === Number(id) && p.status === 'approved'
@@ -114,15 +113,7 @@ function ProductDetails() {
                     </a>
                 </p>
 
-                {product.sellerNumber && (
-                    <a
-                        href={`https://wa.me/91${product.sellerNumber}`}
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        Chat with Seller
-                    </a>
-                )}
+               
 
                 <br /><br />
 

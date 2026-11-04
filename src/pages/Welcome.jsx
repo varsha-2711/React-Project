@@ -77,10 +77,7 @@ function Welcome() {
         <div className="section-heading">
           <span>WHY CAMPUSCART?</span>
           <h2>Everything Students Need, In One Place</h2>
-          <p>
-            A simple and convenient marketplace made
-            especially for your college community.
-          </p>
+         
         </div>
 
         <div className="feature-container">

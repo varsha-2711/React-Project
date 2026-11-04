@@ -18,9 +18,7 @@ function DashboardHome() {
 
         <div>
 
-            <p className="eyebrow">
-                CAMPUSCART CONTROL CENTRE
-            </p>
+            <p className="eyebrow">CAMPUSCART CONTROL CENTRE </p>
 
             <h2>Admin overview</h2>
 
